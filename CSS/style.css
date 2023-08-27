@@ -113,4 +113,29 @@ body{
 
 }
 
+@media screen and (max-width:256px) {
+
+   .digit {
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .txt {
+      font-size: 10px;
+      font-weight: bold;
+  }
+  #btn-container {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+   }
+   .btn {
+      padding: 2px 4px;
+      margin: 0px 10px;
+      color: white;
+      border: 0px;
+      cursor: pointer;
+      font-size: 8px;
+  }
+}
+
 
