@@ -138,4 +138,38 @@ body{
   }
 }
 
+@media screen and (max-width:157px) {
+
+   #time {
+      width: 100%;
+      margin-left: 2px;
+  }
+
+   .digit {
+      font-size: 9px;
+      font-weight: bold;
+   }
+
+   .txt {
+      font-size: 5px;
+      font-weight: bold;
+   }
+
+   #btn-container {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+   }
+
+   .btn {
+      padding: 2px 2px;
+      margin: 0px 4px;
+      color: white;
+      border: 0px;
+      cursor: pointer;
+      font-size: 5px;
+   }
+}
+
+
 
